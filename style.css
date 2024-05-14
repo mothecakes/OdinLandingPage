@@ -1,11 +1,19 @@
+html {
+    font-family: Verdana;
+}
 .header {
     display: flex;
     flex-direction: column;
     background-color: #1F2937;
 }
+.contents {
+    margin: 0 15%;
+}
+
 .header .top {
     display:flex;
     flex-direction: row;
+    margin-bottom: 5%;
 }
 .top h1{
     padding-right: auto;
@@ -13,8 +21,30 @@
     flex-grow:2 ;
     font-size: 24px;
 }
-.top h2{
+.top p{
     font-size: 18px;
     color: #E5E7EB;
-    padding: 10px 10px 0px 0px;
+    padding-right: 3%;
+}
+.header .mid {
+
+}
+.header .mid h1{
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.header .mid p{
+    color: #E5E7EB;
+}
+.header .bottom{
+    display:flex;
+    justify-content: space-between;
+}
+.header .bottom img{
+    flex-shrink:3;
+}
+body {
+    margin: 0;
 }
