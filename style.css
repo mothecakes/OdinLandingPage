@@ -1,5 +1,6 @@
 html {
     font-family: Verdana, sans-serif;
+    background-color: #F9FAF8;
 }
 .header {
     display: flex;
@@ -59,17 +60,48 @@ body {
 }
 .info {
     margin: 0 20%;
-    background-color: #CC8084;
+    background-color: #F9FAF8;
     display:flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
+.info h1{
+    margin: 10% 0;
+}
 .info .content{
     display:flex;
+    gap:50px;
     justify-content: space-around;
 }
 .info-box {
-    flex: 1;
+    flex: 1 1 0;
     margin: 0 1%;
+}
+.img-box {
+    border-radius: 25px;
+    flex:1 1 0;
+    width:100px;
+    border: solid;
+    height: 100px;
+    border-color:#3882F6;
+    background-color: #F9FAF8;
+}
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.quote h2 {
+    font-family: Arial;
+    font-size:36px;
+    flex: 1 1 0;
+    margin: 5% 10%;
+    font-style: italic;
+    color: #1F2937;
+}
+.quote h3 {
+
 }
