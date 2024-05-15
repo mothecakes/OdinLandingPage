@@ -65,9 +65,10 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding: 5%;
 }
 .info h1{
-    margin: 10% 0;
+    margin: 0 0 10% 0;
 }
 .info .content{
     display:flex;
@@ -78,17 +79,25 @@ body {
     flex: 1 1 0;
     margin: 0 1%;
 }
+.info-box p{
+    text-align: center;
+}
 .img-box {
     border-radius: 25px;
     flex:1 1 0;
-    width:100px;
+    width:200px;
     border: solid;
-    height: 100px;
+    height: 200px;
     border-color:#3882F6;
     background-color: #F9FAF8;
+    display: flex;
 }
-.quote {
+
+.quote{
+    padding: 7% 15%;
     background-color: #E5E7EB;
+}
+.quote div{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -98,10 +107,61 @@ body {
     font-family: Arial;
     font-size:36px;
     flex: 1 1 0;
-    margin: 5% 10%;
     font-style: italic;
     color: #1F2937;
+    margin: 0;
 }
-.quote h3 {
 
+.quote h3 {
+    color: #1F2937;
+    margin: 0 3% 0 auto;
+}
+
+.ground{
+    margin: 5% 10%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882F6;
+    padding: 3% 7%;
+    border-radius: 8px;
+}
+.ground button{
+    width: 150px;
+    height: 40px;
+    background-color: #3882F6;
+    color:#F9FAF8;
+    border-radius: 6px;
+    border-color: #F9FAF8;
+    border-style: solid;
+    font-size: 18px;
+}
+.call {
+    margin: 0 auto 0 5%;
+    display:flex;
+    flex-direction: column;
+    align-content:flex-start;
+}
+
+.call h1{
+    font-size: 24px;
+    margin:0;
+    color:#F9FAF8;
+}
+.call h2{
+    font-size: 18px;
+    margin:0;
+    color: #E5E7EB;
+}
+.footer{
+    background-color: #1F2937;
+    padding: 1% 5%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer p{
+    font-size: 12px;
+    color:#E5E7EB;
+    text-align: center;
 }
